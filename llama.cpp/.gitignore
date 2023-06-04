@@ -25,6 +25,7 @@ models/*
 *.bin
 
 /main
+/limited
 /quantize
 /quantize-stats
 /result

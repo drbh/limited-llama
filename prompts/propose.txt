@@ -1,0 +1,13 @@
+Generate the best possible next steps for this game. DO NOT rewrite existing steps.
+Input: 2 5 9 10
+Possible next steps:
+{"thought": [2, +, 5, =, 7], "left": [7, 9, 10], "unused": [9, 10]}
+{"thought": [2, *, 5, =, 10], "left": [10, 10,], "unused": [9, 10]}
+{"thought": [10, /, 2, =, 5], "left": [5, 5, 9], "unused": [5, 9]}
+{"thought": [10, -, 2, =, 8], "left": [8, 5, 9], "unused": [5, 9]}
+{"thought": [9, -, 5, =, 4], "left": [4, 10, 10], "unused": [10, 10]}
+Input: 4 9 10 13
+Possible next steps:
+{ "thought": [4, +, 9, =, 13] , "left": [13, 10, 13] , "unused": [10, 13] } 
+{ "thought": [4, *, 9, =, 36] , "left": [36, 10, 13] , "unused": [10, 13] } 
+{ "thought": [4, -, 9, =, -5] , "left": [-5, 5, 10] , "unused": [10, 13] }
